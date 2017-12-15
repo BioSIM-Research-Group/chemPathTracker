@@ -1,0 +1,5 @@
+####vmdStore#### START chemPathTracker
+## Version XXversionXX
+lappend auto_path "$::vmdStorePath/plugins/chemPathTracker"
+vmd_install_extension BPF "BPF::BPF" "PortoBioComp/ChemPathTracker" 
+####vmdStore#### END chemPathTracker
